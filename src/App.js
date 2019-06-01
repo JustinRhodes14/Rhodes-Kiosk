@@ -20,6 +20,7 @@ import Backdrop from "./components/Backdrop/Backdrop";
 //to do: add bar, pictures if  u can str split("")
 const API_KEY = "kHjKwA8UlJlW5B9IuGAc42is8eOVzuqiqOP7OVS4";
 
+
 class App extends React.Component {
 
   state = { //DONE
@@ -99,6 +100,7 @@ class App extends React.Component {
     vUrl3: undefined,
     vError: undefined
   }
+
 
   getInfo = async (e) => { //resets page info to every time the button is pressed
 
@@ -405,7 +407,6 @@ class App extends React.Component {
   backdropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   }
-
   render() {
 //renders all panels with respective titles
   let backdrop;
@@ -426,7 +427,7 @@ class App extends React.Component {
                   <Home />
                 </div>
 
-                <div className = "col form-container">
+                <div id = "div1" className = "col form-container">
                 <Form getInfo ={this.getInfo}/>
                 <ParkInfo
                   name = {this.state.name}
@@ -445,7 +446,7 @@ class App extends React.Component {
             <div className = "main">
               <div className = "container">
                 <div className = "row">
-                  <div className = "col form-container">
+                  <div id = "div2" className = "col form-container">
                    <VCTitles />
                    <VisitorCenters
                     vName = {this.state.vName}
@@ -465,7 +466,7 @@ class App extends React.Component {
               <div className = "main">
                 <div className = "container">
                   <div className = "row">
-                    <div className = "col form-container">
+                    <div id = "div3" className = "col form-container">
                      <ArTitles />
                      <Articles
                       arTitle = {this.state.arTitle}
@@ -485,7 +486,7 @@ class App extends React.Component {
                 <div className = "main">
                   <div className = "container">
                     <div className = "row">
-                      <div className = "col form-container">
+                      <div id = "div4" className = "col form-container">
                        <NRTitles />
                        <NewsReleases
                         abstract = {this.state.abstract}
@@ -505,7 +506,7 @@ class App extends React.Component {
                   <div className = "main">
                     <div className = "container">
                       <div className = "row">
-                        <div className = "col form-container">
+                        <div id = "div5" className = "col form-container">
                          <EduTitles />
                          <EduInfo
                           objective = {this.state.objective}
@@ -523,7 +524,7 @@ class App extends React.Component {
                     <div className = "main">
                       <div className = "container">
                         <div className = "row">
-                          <div className = "col form-container">
+                          <div id = "div6" className = "col form-container">
                            <EvTitles />
                            <Events
                             evTitle = {this.state.evTitle}
@@ -543,7 +544,7 @@ class App extends React.Component {
                       <div className = "main">
                         <div className = "container">
                           <div className = "row">
-                            <div className = "col form-container">
+                            <div id = "div7" className = "col form-container">
                              <AlrtTitles />
                              <Alerts
                               aTitle = {this.state.aTitle}
