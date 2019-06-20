@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Rhodes-Kiosk/static/css/main.32444fd6.chunk.css",
+    "main.js": "/Rhodes-Kiosk/static/js/main.b73a9d8c.chunk.js",
+    "main.js.map": "/Rhodes-Kiosk/static/js/main.b73a9d8c.chunk.js.map",
+    "runtime~main.js": "/Rhodes-Kiosk/static/js/runtime~main.3e91b3ac.js",
+    "runtime~main.js.map": "/Rhodes-Kiosk/static/js/runtime~main.3e91b3ac.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Rhodes-Kiosk/static/css/2.266e55a5.chunk.css",
+    "static/js/2.5378fd1e.chunk.js": "/Rhodes-Kiosk/static/js/2.5378fd1e.chunk.js",
+    "static/js/2.5378fd1e.chunk.js.map": "/Rhodes-Kiosk/static/js/2.5378fd1e.chunk.js.map",
+    "index.html": "/Rhodes-Kiosk/index.html",
+    "precache-manifest.c06095d569f92606f2e9b19abfb3f7ad.js": "/Rhodes-Kiosk/precache-manifest.c06095d569f92606f2e9b19abfb3f7ad.js",
+    "service-worker.js": "/Rhodes-Kiosk/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Rhodes-Kiosk/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.32444fd6.chunk.css.map": "/Rhodes-Kiosk/static/css/main.32444fd6.chunk.css.map",
+    "static/media/App.css": "/Rhodes-Kiosk/static/media/bg.801ea3c2.jpg"
+  }
+}
