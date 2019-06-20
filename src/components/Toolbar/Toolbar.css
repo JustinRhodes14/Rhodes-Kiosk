@@ -9,6 +9,8 @@
 
 .toolbar__logo {
   margin-left: 1rem;
+  color: white;
+  font-size: 35px;
 }
 .toolbar__navigation {
   display: flex;
