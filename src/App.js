@@ -423,7 +423,7 @@ class App extends React.Component {
 
     if (data9.total < 1) {
       this.setState({
-        pError: "No campgrounds found"
+        pError: "No places found"
       });
     } else if (data9.total > 1) {
       this.setState({ //place specific info is stored
@@ -782,6 +782,7 @@ class App extends React.Component {
                                     pplName2 = {this.state.pplName2}
                                     pplDescription2 = {this.state.pplDescription2}
                                     pplUrl2 = {this.state.pplUrl2}
+                                    pplError = {this.state.pplError}
                                     />
                                    </div>
                                   </div>
