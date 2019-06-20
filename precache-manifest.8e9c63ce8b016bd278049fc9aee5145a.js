@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "557b0c326ffcb929bd11c43b13419c22",
+    "revision": "b419c07b25eab10250cc96454cdb8786",
     "url": "/Rhodes-Kiosk/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Rhodes-Kiosk/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "95305df1ee81eef38a12",
+    "revision": "de4fafb7c282df008c77",
     "url": "/Rhodes-Kiosk/static/css/main.32444fd6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Rhodes-Kiosk/static/js/2.5378fd1e.chunk.js"
   },
   {
-    "revision": "95305df1ee81eef38a12",
-    "url": "/Rhodes-Kiosk/static/js/main.b73a9d8c.chunk.js"
+    "revision": "de4fafb7c282df008c77",
+    "url": "/Rhodes-Kiosk/static/js/main.c92d48e7.chunk.js"
   },
   {
     "revision": "88e1f94ebb65a2738878",

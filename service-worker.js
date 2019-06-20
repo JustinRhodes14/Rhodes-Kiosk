@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Rhodes-Kiosk/precache-manifest.c06095d569f92606f2e9b19abfb3f7ad.js"
+  "/Rhodes-Kiosk/precache-manifest.8e9c63ce8b016bd278049fc9aee5145a.js"
 );
 
 self.addEventListener('message', (event) => {
